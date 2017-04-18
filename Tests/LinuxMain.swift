@@ -1,7 +1,7 @@
 import XCTest
 
-@testable import TestSuite
+@testable import TestSuiteTests
 
-XCMain([
-    testCase(TestSuite.allTests)
+XCTMain([
+    testCase(AssertTest.allTests)
     ])
